@@ -10,6 +10,8 @@ export default props => {
         
           return (
             <ul className='expenses-list'>
+               <p>My List of Items</p>
+               
               {props.items.map((expense) => (
                 <ItemComponent
                   key={expense.id}

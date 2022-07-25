@@ -25,7 +25,6 @@ function App() {
               </ul>
             </ParentComponent>
 
-            <p>My List of Items</p>
 
             <ListItems items = {products}/>
 
